@@ -1,13 +1,15 @@
-import React from 'react'
-import axios from "axios"
-function Home() {
-
-  return (
-    <>
-        <div>Home</div>
-    </>
-    
-  )
+import React from "react";
+import Header from "./Header"
+import Footer from "./Footer"
+const Home = () =>{
+    return (
+        <>  
+            <Header/>
+            <div>Pokemon Quiz</div>
+            <Footer />
+        </>
+       
+    )
 }
 
 export default Home
